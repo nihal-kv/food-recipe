@@ -1,0 +1,39 @@
+.recipeDirection{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.recipeDirection h2{
+    font-size: 1.5rem;
+    color: #F38E82;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+.recipeDirection p{
+    max-width: 400px;
+}
+.recipeDirection p span{
+    font-weight: bold;
+}
+.recipeDirection__anchor{
+    display: flex;
+    padding: 10px;
+    background-color: #F38E82;
+    border-radius: 15px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.recipeDirection a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+@media (max-width: 600px){
+    .recipeDirection h2{
+        font-size: 1.2rem;
+    }
+}

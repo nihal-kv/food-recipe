@@ -1,0 +1,119 @@
+.header{
+    display: flex;
+    background-color: #FBD589;
+    height: 98px;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    height: 45px;
+    width: 140px;
+}
+.header__search{
+    display: flex;
+    align-items: center;
+}
+.header__input{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.header__button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header__nav{
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__link{
+    color: #574945;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 4px;
+    transition: all 0.3s;
+    margin-left: 5px;
+}
+
+.header__link:hover{
+    color: #251814;
+    transform: scale(1.08);
+}
+
+.header__option{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 20px; */
+}
+.header__optionLineOne{
+    font-size: 10px;
+}
+.header__optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+@media (max-width: 768px){
+    .header{
+        height: 83px;
+    }
+    .header__input{
+        height: 40px;
+        width: 270px;
+    }
+    .header__button{
+        width: 40px;
+        height: 40px;
+    }
+    .header__logo{
+        width: 120px;
+        height: 40px;
+    }
+}
+@media (max-width: 600px){
+    .header{
+        height: 75px;
+        padding: 0 15px;
+    }
+    .header__input{
+        height: 33px;
+        width: 215px;
+    }
+    .header__button{
+        width: 33px;
+        height: 33px;
+    }
+    .header__logo{
+        width: 111px;
+        height: 37px;
+    }
+}
+@media (max-width: 480px){
+    .header{
+        height: 70px;
+        padding: 0 10px;
+    }
+    .header__input{
+        height: 30px;
+        width: 100px;
+        margin-right: 4px;
+    }
+    .header__button{
+        width: 33px;
+        height: 33px;
+    }
+    .header__logo{
+        width: 104px;
+        height: 30px;
+    }
+}

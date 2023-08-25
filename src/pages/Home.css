@@ -1,0 +1,9 @@
+.home__body{
+    display: flex;
+  }
+  
+  @media (max-width: 600px){
+    .home__body{
+      flex-direction: column;
+    }
+  }
